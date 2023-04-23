@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Input, Footer, Card, CardBody, CardTitle } from "mdbreact";
+import { Footer, Card, CardBody, CardTitle } from "mdbreact";
 import { Routes, Route } from "react-router-dom";
 import Place from "./Place";
 import "./Cards.css";

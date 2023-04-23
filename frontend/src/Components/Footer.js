@@ -15,10 +15,10 @@ export default function Footer() {
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">
-                    <i className="fas fa-gem me-3"></i> Water Around You
+                    <i className="fas fa-gem me-3"></i> Water Rave
                   </h6>
                   <p style={{ textAlign: "justify" }}>
-                    Established in September 2022, Water Around You has since
+                    Established in September 2022, Water Rave has since
                     positioned itself as one of the leading water quality review
                     website, providing review of water quality of different
                     places in India. You can see reviews as well as add review
@@ -53,7 +53,7 @@ export default function Footer() {
                   </p>
                   <p>
                     <i className="fas fa-envelope me-3"></i>
-                    wateraroundu@gmail.com
+                    waterrave@gmail.com
                   </p>
                   <p>
                     <i className="fas fa-phone me-3"></i> 111-222-333
@@ -72,7 +72,7 @@ export default function Footer() {
           >
             © 2022 Copyright:&nbsp;
             <Link className="text-reset fw-bold" to="/">
-              Water Around You
+              Water Rave
             </Link>
           </div>
         </footer>
