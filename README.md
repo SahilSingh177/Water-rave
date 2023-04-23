@@ -1,11 +1,12 @@
-# Water Around You
+# WaterRave
 
-Water Around You is a social website that allows users to read and write reviews about the water quality in their area. It aims to create awareness about the issue of poor water quality and motivate governments to take action.
+WaterRave is a social website that allows users to read and write reviews about the water quality in their area. It aims to create awareness about the issue of poor water quality and motivate governments to take action.
 
 ## Table of Contents
 - [Inspiration](#inspiration)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [How to setup](#how-to-setup)
 - [Challenges Faced](#challenges-faced)
 - [Accomplishments](#accomplishments)
 - [What We Learned](#what-we-learned)
@@ -24,6 +25,35 @@ The inspiration behind this project was to create a platform where people can sh
 - React.js for the frontend
 - Node.js and Express.js for the backend
 - MongoDB for the database
+
+## How to setup
+
+Clone the repository:
+```
+git clone https://github.com/SahilSingh177/Water-rave
+cd water-rave
+```
+Install dependencies:
+
+```
+cd backend
+npm install
+cd ..\frontend
+npm install
+```
+Start the server:
+```
+cd backend
+node server.js
+```
+
+Frontend:
+```
+cd frontend
+npm start
+```
+
+Open a web browser and navigate to http://localhost:3000 to view the website.
 
 ## Challenges Faced
 The main challenge we faced was designing an intuitive and user-friendly UI that would be easy to navigate for users of all ages and backgrounds. Additionally, we had to figure out how to accurately calculate the average rating for each place.
